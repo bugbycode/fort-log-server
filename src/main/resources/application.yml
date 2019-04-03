@@ -1,0 +1,13 @@
+server:
+  port: 9990
+spring:
+  log:
+    oauth:
+      clientId: fort
+      clientSecret: j1d1sec.c0m
+      checkTokenUrl: http://dev.server:8080/fort-auth-server/oauth/check_token
+    mongodb:
+      uri: mongodb://fort:Zhigongzhang1991%40@dev.server:27017
+      database: new_log
+logging:
+  config: classpath:log4j2.xml
